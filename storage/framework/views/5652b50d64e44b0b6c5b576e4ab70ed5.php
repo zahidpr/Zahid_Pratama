@@ -19,18 +19,18 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/bootstrap.min.css')); ?>">
 <!-- Site CSS -->
 <!-- ALL VERSION CSS -->
-<link rel="stylesheet" href="{{ asset('assets/css/versions.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/versions.css')); ?>">
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
 <!-- Responsive CSS -->
-<link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/responsive.css')); ?>">
 <!-- Custom CSS -->
-<link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+<link rel="stylesheet" href="<?php echo e(asset('assets/css/custom.css')); ?>">
 
 <!-- Modernizer for Portfolio -->
-<script src="{{ asset('assets/js/modernizer.js') }}"></script>
+<script src="<?php echo e(asset('assets/js/modernizer.js')); ?>"></script>
 
 <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -175,7 +175,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_1.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_1.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -206,7 +206,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_2.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_2.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -237,7 +237,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_3.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_3.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -268,7 +268,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_4.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_4.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -303,7 +303,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_1.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_1.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -334,7 +334,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_2.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_2.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -365,7 +365,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_5.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_5.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -396,7 +396,7 @@
 				<div class="col-lg-3 col-md-6 col-12">
 					<div class="course-item">
 						<div class="image-blog">
-							<img src="{{ asset('assets/images/blog_6.jpg') }}" alt="" class="img-fluid">
+							<img src="<?php echo e(asset('assets/images/blog_6.jpg')); ?>" alt="" class="img-fluid">
 						</div>
 						<div class="course-br">
 							<div class="course-title">
@@ -431,22 +431,22 @@
 		<div class="container">
 			<div class="row logos">
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_01.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_01.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_02.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_02.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_03.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_03.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_04.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_04.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_05.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_05.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 				<div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
-					<a href="#"><img src="{{ asset('assets/images/logo_06.png') }}" alt="" class="img-repsonsive"></a>
+					<a href="#"><img src="<?php echo e(asset('assets/images/logo_06.png')); ?>" alt="" class="img-repsonsive"></a>
 				</div>
 			</div><!-- end row -->
 		</div><!-- end container -->
@@ -520,10 +520,10 @@
 	<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
 	<!-- ALL JS FILES -->
-	<script src="{{ asset('assets/js/all.js') }}"></script>
+	<script src="<?php echo e(asset('assets/js/all.js')); ?>"></script>
 	<!-- ALL PLUGINS -->
-	<script src="{{ asset('assets/js/custom.js') }}"></script>
+	<script src="<?php echo e(asset('assets/js/custom.js')); ?>"></script>
 
 </body>
 
-</html>
+</html><?php /**PATH C:\Users\User\Laundry-app\resources\views/welcome.blade.php ENDPATH**/ ?>
