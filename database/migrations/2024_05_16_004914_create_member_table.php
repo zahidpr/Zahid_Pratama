@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('dosen', function (Blueprint $table) {
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->string('nidn')->unique();
-            $table->string('nama_member');
-            $table->enum('jenis_kelamin', ['L', 'P']);
+        Schema::create('member', function (Blueprint $table) {
+            $table->bigIncrements('member_id');
+            $table->string('no_identitas', 16)->primary();
+            $table->string('password', 100)->primary();
+            $table->text('alamat')->nullable(false);
+            $table->string('no_hp', 15)->primary();
+            $table->date('tgl_join')->nullable(false);
             $table->timestamps();
-
         });
     }
 
